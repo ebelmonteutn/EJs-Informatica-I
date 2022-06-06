@@ -24,6 +24,6 @@ int main(void)
 int tirar_dado()
 {
     int num;
-    num=rand()%6;
+    num= 1 + ( rand() % 5 ) ;
     return num;
 }
